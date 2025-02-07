@@ -39,7 +39,7 @@
 
 .projects .projects_library{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
     width: 90%;
     gap: 80px;
     margin: auto auto;
@@ -53,6 +53,14 @@
     height: auto;
     border-radius: 10px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.project img{
+    width: 100%;
+    height: auto;
+    max-width: 400px; /* Ajuste conforme necessário */
+    display: block;
+    object-fit:scale-down;
+    border-radius: 10px; /* Opcional, para bordas arredondadas */
 }
 /* deixar esse por último */
 .projects img{
