@@ -44,15 +44,21 @@
     gap: 80px;
     margin: auto auto;
     margin-top: 80px;
+    margin-bottom: 60px;
 }
 
 .projects .projects_library .project{
     display: flex;
     justify-content: center;
-    border: 1px solid black;
+    border: 3px solid black;
     height: auto;
     border-radius: 10px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    padding-top: 30px;
+}
+.projects .projects_library .project:hover {
+    transform: scale(1.05);
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3);
 }
 .project img{
     width: 100%;
@@ -62,11 +68,42 @@
     object-fit:scale-down;
     border-radius: 10px; /* Opcional, para bordas arredondadas */
 }
+.project{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.project span{
+    margin: 10px;
+    
+}
+.project .title{
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    background: linear-gradient(135deg, #87CEFA, #8A2BE2);;
+    color: #fff;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 5px 25px 5px 25px;
+    margin: auto auto;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.project .paragraph{
+    font-weight: 600;
+    font-size: 16px;
+}
+.project .icon img{
+    width: 55px;
+    height: auto;
+    padding: 10px;
+}
+
 /* deixar esse por último */
 .projects img{
     margin: auto auto;
     height: 250px;
     width: auto;
     border-radius: 15px;
-    margin-top: 90px;
+   
 }

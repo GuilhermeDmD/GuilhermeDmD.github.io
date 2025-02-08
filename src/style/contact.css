@@ -1,0 +1,60 @@
+.contact{
+    background-color: rgb(246,246,244,255);
+    width: 70%;
+    height: auto;
+    margin: auto auto;
+    padding: 0 0 15px 0;
+    margin-top: 60px;
+    border-radius: 15px;
+    
+}
+.contact_content{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.contact_content .info{
+    margin-top: 18px;
+    
+}
+.contact_content .info_icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_content .info_icons #email{
+    width: 75px;
+    height: auto;
+    margin: 0 10px;
+}
+.contact_content .info_icons #linkedln{
+    width: 70px;
+    height: auto;
+}
+.contact_content .info_icons #insta{
+    width: 92px;
+    height: auto;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    text-align: center;
+
+}
+footer .footer_content{
+    background-color: rgb(246,246,244,255);
+    width: 100%;
+
+}
+footer img{
+    margin: auto auto;
+    height: 150px;
+    width: auto;
+    border-radius: 15px;
+
+}
+
